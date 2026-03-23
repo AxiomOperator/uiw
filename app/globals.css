@@ -128,3 +128,17 @@
     @apply font-sans;
   }
 }
+
+/* Iran War Cost Tracker custom accents */
+@layer base {
+  :root {
+    --accent-amber: oklch(0.75 0.15 80);
+    --accent-red: oklch(0.65 0.20 25);
+    --accent-blue: oklch(0.65 0.15 240);
+  }
+  .dark {
+    --accent-amber: oklch(0.82 0.16 80);
+    --accent-red: oklch(0.70 0.22 25);
+    --accent-blue: oklch(0.70 0.16 240);
+  }
+}
